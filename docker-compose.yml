@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  fastapi:
+    build: .
+    container_name: fastapi_newsapp
+    ports:
+      - "8000:8000"
+    environment:
+      - NEWSAPI_KEY=${NEWSAPI_KEY}
+      - DATABASE_URL=${DATABASE_URL}
+    volumes:
+      - ./:/app
+
+
