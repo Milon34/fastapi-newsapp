@@ -1,0 +1,114 @@
+2025-04-17 16:48:49,558 - root - INFO - Root endpoint was accessed
+2025-04-17 16:49:52,623 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-17 16:49:52,623 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-17 16:49:52,623 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-17 16:49:52,623 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-17 16:49:52,623 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-17 16:49:52,624 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-17 16:49:52,624 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:33]
+2025-04-17 16:49:52,624 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-17 16:49:52,624 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-17 16:49:52,624 - python_multipart.multipart - DEBUG - Calling on_field_name with data[34:42]
+2025-04-17 16:49:52,624 - python_multipart.multipart - DEBUG - Calling on_field_data with data[43:47]
+2025-04-17 16:49:52,625 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-17 16:49:52,625 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-17 16:50:02,734 - root - INFO - Fetching all news articles.
+2025-04-17 16:50:02,785 - httpcore.connection - DEBUG - connect_tcp.started host='newsapi.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-04-17 16:50:02,830 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7399ec7a89a0>
+2025-04-17 16:50:02,830 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x7399ec71f0c0> server_hostname='newsapi.org' timeout=5.0
+2025-04-17 16:50:02,857 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x7399ed2f3c40>
+2025-04-17 16:50:02,857 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-17 16:50:02,858 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-17 16:50:02,858 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-17 16:50:02,858 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-17 16:50:02,858 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-17 16:50:03,892 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 17 Apr 2025 16:50:03 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'no-cache'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'X-Cached-Result', b'false'), (b'cf-cache-status', b'DYNAMIC'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=y94aIisGKiVhTCfgrzT%2F7OazXeprqrZSwnf92XQqIqxQe9rUTtJybTz8Cw330Ju2zM4GPvR5JDsMfR4smtyv%2BQOtPemIYOWhtbFcgThMtcpEhBvNA4MDfzM%2BNfHf"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Server', b'cloudflare'), (b'CF-RAY', b'931d6b500ac77e63-DAC'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1803&min_rtt=1785&rtt_var=536&sent=4&recv=7&lost=0&retrans=0&sent_bytes=2838&recv_bytes=839&delivery_rate=1532275&cwnd=251&unsent_bytes=0&cid=99fdb4f4c78192a4&ts=1042&x=0"')])
+2025-04-17 16:50:03,895 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?q=bitcoin&page=1&pageSize=5&apiKey=86399904a163445faf8678751d9f3bf7 "HTTP/1.1 200 OK"
+2025-04-17 16:50:03,896 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-17 16:50:03,899 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-17 16:50:03,900 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-17 16:50:03,901 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-17 16:50:03,902 - httpcore.connection - DEBUG - close.started
+2025-04-17 16:50:03,902 - httpcore.connection - DEBUG - close.complete
+2025-04-17 16:55:43,932 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-17 16:55:43,932 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2025-04-17 16:55:43,932 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2025-04-17 16:55:43,932 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-17 16:55:43,932 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-17 16:55:43,932 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2025-04-17 16:55:43,932 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:33]
+2025-04-17 16:55:43,933 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-17 16:55:43,933 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2025-04-17 16:55:43,933 - python_multipart.multipart - DEBUG - Calling on_field_name with data[34:42]
+2025-04-17 16:55:43,933 - python_multipart.multipart - DEBUG - Calling on_field_data with data[43:47]
+2025-04-17 16:55:43,933 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2025-04-17 16:55:43,934 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2025-04-17 16:55:48,221 - root - INFO - Fetching all news articles.
+2025-04-17 16:55:48,276 - httpcore.connection - DEBUG - connect_tcp.started host='newsapi.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-04-17 16:55:48,317 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x701289aa48e0>
+2025-04-17 16:55:48,317 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x701289d930c0> server_hostname='newsapi.org' timeout=5.0
+2025-04-17 16:55:48,336 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x701289dc0fd0>
+2025-04-17 16:55:48,336 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-17 16:55:48,337 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-17 16:55:48,337 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-17 16:55:48,337 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-17 16:55:48,337 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-17 16:55:49,383 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 17 Apr 2025 16:55:49 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'no-cache'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'X-Cached-Result', b'false'), (b'cf-cache-status', b'DYNAMIC'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=UhkI9jzCsaYxuD%2B2KF3HrVrQpLkN2gBafdUZN7qLQfwXkAPDzpqSPMWPo56QTLJM6kb61jxKVU096d294kAAbSGEBLHjZVLbaSO%2FoycEMCXr6UIeUyjamYR2hgGl"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Server', b'cloudflare'), (b'CF-RAY', b'931d73bf4db49325-DAC'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1955&min_rtt=1756&rtt_var=844&sent=4&recv=7&lost=0&retrans=0&sent_bytes=2838&recv_bytes=839&delivery_rate=1086271&cwnd=251&unsent_bytes=0&cid=677b9be8a361f9e8&ts=1056&x=0"')])
+2025-04-17 16:55:49,385 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?q=bitcoin&page=1&pageSize=4&apiKey=86399904a163445faf8678751d9f3bf7 "HTTP/1.1 200 OK"
+2025-04-17 16:55:49,386 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-17 16:55:49,388 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-17 16:55:49,389 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-17 16:55:49,390 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-17 16:55:49,391 - httpcore.connection - DEBUG - close.started
+2025-04-17 16:55:49,392 - httpcore.connection - DEBUG - close.complete
+2025-04-17 17:05:34,475 - httpcore.connection - DEBUG - connect_tcp.started host='newsapi.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-04-17 17:05:34,526 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x794a40130460>
+2025-04-17 17:05:34,527 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x794a4044b040> server_hostname='newsapi.org' timeout=5.0
+2025-04-17 17:05:34,564 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x794a4017dd50>
+2025-04-17 17:05:34,568 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-17 17:05:34,570 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-17 17:05:34,570 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-17 17:05:34,571 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-17 17:05:34,571 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-17 17:05:35,616 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 17 Apr 2025 17:05:35 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'no-cache'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'X-Cached-Result', b'false'), (b'cf-cache-status', b'DYNAMIC'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=fJGIVK0Jp6nDDwR%2Fy8OhAqZLqXm5zvKVPF52MQG97jkmCpZ%2FZEt5B9vJ38UCEW5NOoKsetg%2BfQhPUlyCeWw9RuztNvVQUNZbVVvC5t1WUs0Rkjg%2BlzKkjo5NPSkH"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Server', b'cloudflare'), (b'CF-RAY', b'931d820f38107055-DAC'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1861&min_rtt=1775&rtt_var=649&sent=4&recv=7&lost=0&retrans=0&sent_bytes=2836&recv_bytes=839&delivery_rate=1345099&cwnd=251&unsent_bytes=0&cid=86cd1a268de78fe2&ts=1064&x=0"')])
+2025-04-17 17:05:35,620 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?q=bitcoin&page=1&pageSize=3&apiKey=86399904a163445faf8678751d9f3bf7 "HTTP/1.1 200 OK"
+2025-04-17 17:05:35,621 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-17 17:05:35,623 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-17 17:05:35,624 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-17 17:05:35,625 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-17 17:05:35,627 - httpcore.connection - DEBUG - close.started
+2025-04-17 17:05:35,628 - httpcore.connection - DEBUG - close.complete
+2025-04-17 17:05:57,591 - httpcore.connection - DEBUG - connect_tcp.started host='newsapi.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-04-17 17:05:57,630 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x794a40133490>
+2025-04-17 17:05:57,631 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x794a402facc0> server_hostname='newsapi.org' timeout=5.0
+2025-04-17 17:05:57,641 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x794a40300d00>
+2025-04-17 17:05:57,641 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-17 17:05:57,641 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-17 17:05:57,642 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-17 17:05:57,642 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-17 17:05:57,642 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-17 17:05:58,676 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 17 Apr 2025 17:05:58 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'no-cache'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'X-Cached-Result', b'true'), (b'X-Cache-Remaining', b'99'), (b'X-Cache-Expires', b'Thu, 17 Apr 2025 17:10:28 GMT'), (b'cf-cache-status', b'DYNAMIC'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=uvx%2FGTO7af37suaiKW6XI8dJ9Nml7WN5SbR2VmakvXLFNHp0gaPTQOuANRjjHH%2B0s%2FVycV9e4VuGG2dZooVW7am1e6zK%2BiVhYAH3V8QINtDEZt2Oh4U9TZXLC%2FOs"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Server', b'cloudflare'), (b'CF-RAY', b'931d829f6d958b01-DAC'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1873&min_rtt=1814&rtt_var=615&sent=4&recv=7&lost=0&retrans=0&sent_bytes=2837&recv_bytes=839&delivery_rate=1390302&cwnd=251&unsent_bytes=0&cid=75a608ee171909e3&ts=1041&x=0"')])
+2025-04-17 17:05:58,677 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?q=bitcoin&page=1&pageSize=3&apiKey=86399904a163445faf8678751d9f3bf7 "HTTP/1.1 200 OK"
+2025-04-17 17:05:58,678 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-17 17:05:58,679 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-17 17:05:58,680 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-17 17:05:58,680 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-17 17:05:58,681 - httpcore.connection - DEBUG - close.started
+2025-04-17 17:05:58,682 - httpcore.connection - DEBUG - close.complete
+2025-04-17 17:06:33,686 - httpcore.connection - DEBUG - connect_tcp.started host='newsapi.org' port=443 local_address=None timeout=5.0 socket_options=None
+2025-04-17 17:06:33,724 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x794a40131960>
+2025-04-17 17:06:33,724 - httpcore.connection - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x794a402fad40> server_hostname='newsapi.org' timeout=5.0
+2025-04-17 17:06:33,733 - httpcore.connection - DEBUG - start_tls.complete return_value=<httpcore._backends.anyio.AnyIOStream object at 0x794a4047bd30>
+2025-04-17 17:06:33,734 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'GET']>
+2025-04-17 17:06:33,735 - httpcore.http11 - DEBUG - send_request_headers.complete
+2025-04-17 17:06:33,735 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'GET']>
+2025-04-17 17:06:33,735 - httpcore.http11 - DEBUG - send_request_body.complete
+2025-04-17 17:06:33,735 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'GET']>
+2025-04-17 17:06:34,011 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Thu, 17 Apr 2025 17:06:34 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Cache-Control', b'no-cache'), (b'Pragma', b'no-cache'), (b'Expires', b'-1'), (b'X-Cached-Result', b'true'), (b'X-Cache-Remaining', b'98'), (b'X-Cache-Expires', b'Thu, 17 Apr 2025 17:10:28 GMT'), (b'cf-cache-status', b'DYNAMIC'), (b'Report-To', b'{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=2u%2BMmymhiCfyav%2FayYs%2BbMjw0g7NUZ7ET%2FL0HJpKPiQsAjVO9d7GTMpi0fTS0BQ9lO%2FcTE3TYVzKBbZjpqQs2NWnaF7OIxv9Ky9ilIHvr99JkssZum3%2BYaAl%2FWEI"}],"group":"cf-nel","max_age":604800}'), (b'NEL', b'{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'), (b'Server', b'cloudflare'), (b'CF-RAY', b'931d8380fd127055-DAC'), (b'Content-Encoding', b'gzip'), (b'server-timing', b'cfL4;desc="?proto=TCP&rtt=1842&min_rtt=1830&rtt_var=526&sent=5&recv=8&lost=0&retrans=0&sent_bytes=2838&recv_bytes=839&delivery_rate=1554482&cwnd=251&unsent_bytes=0&cid=d418f594cd6e6618&ts=282&x=0"')])
+2025-04-17 17:06:34,013 - httpx - INFO - HTTP Request: GET https://newsapi.org/v2/everything?q=bitcoin&page=1&pageSize=3&apiKey=86399904a163445faf8678751d9f3bf7 "HTTP/1.1 200 OK"
+2025-04-17 17:06:34,015 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'GET']>
+2025-04-17 17:06:34,018 - httpcore.http11 - DEBUG - receive_response_body.complete
+2025-04-17 17:06:34,019 - httpcore.http11 - DEBUG - response_closed.started
+2025-04-17 17:06:34,019 - httpcore.http11 - DEBUG - response_closed.complete
+2025-04-17 17:06:34,019 - httpcore.connection - DEBUG - close.started
+2025-04-17 17:06:34,020 - httpcore.connection - DEBUG - close.complete
