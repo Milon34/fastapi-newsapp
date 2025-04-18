@@ -29,11 +29,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 ```
-##How to Run the Server
+## How to Run the Server
 ```
 uvicorn app.main:app --reload
 ```
-##How to run tests
+## How to run tests
 ```
 pytest tests/test_news.py
 pytest -v tests/test_news.py
@@ -89,7 +89,7 @@ docker-compose up
 docker-compose ps
 ```
 
-##How to Generate Access Tokens and Use Secured Endpoints
+## How to Generate Access Tokens and Use Secured Endpoints
 
 You can generate access tokens by hitting the /tokens endpoint in your FastAPI application.
 
@@ -119,7 +119,7 @@ Bearer <your_access_token>
 ```
 - Alternatively, you can also manually include the token in the header (e.g., using curl, Postman, or in your code).
 
-##API usage examples and descriptions for all 5 endpoints above
+## API usage examples and descriptions for all 5 endpoints above
 
 ### 1. `GET /news`
 
