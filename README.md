@@ -90,6 +90,7 @@ docker-compose ps
 ```
 
 ##How to Generate Access Tokens and Use Secured Endpoints
+
 You can generate access tokens by hitting the /tokens endpoint in your FastAPI application.
 
 - Open the Swagger UI for your FastAPI application. It is usually available at http://localhost:8000/docs (or another port if you have configured it differently).
